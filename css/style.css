@@ -9,6 +9,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	margin: 27px;
 }
 
 .container{
@@ -41,3 +42,30 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+.col-3{
+	background: #037f99;
+	height: 500px;
+}
+
+.col-3 img{
+	width: 100%;
+}
+
+.col-3 h1{
+	font-family: 'Baloo Paaji', cursive;
+	color: #ff7673;
+	width: 100%;
+	font-size: 22px;
+	text-align: center;
+}
+
+.col-3 p{
+	color: whitesmoke;
+	width: 90%;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Prompt', sans-serif;
+}
+
