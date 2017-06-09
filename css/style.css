@@ -99,6 +99,7 @@ body{
 
 .col-6.conejo1{
 	background: #ecf7fb;
+	height: 1400px;
 }
 
 .col-6.conejo1 h1{
@@ -117,6 +118,8 @@ body{
 .col-6.conejo1 p{
 	font-family: 'Prompt', sans-serif;
 	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .col-6.conejito-volteado{
@@ -159,6 +162,8 @@ body{
 .col-12.video-you{
 	margin: 0;
 	width: 99%;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 iframe{
@@ -171,4 +176,31 @@ iframe{
 .texto-video p{
 	font-family: 'Prompt', sans-serif;
 	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
 }
+
+.col-6.conejo-blanco{
+	margin: 8px;
+	margin-top: 20px;
+	background: #ecf7fb;
+}
+
+.col-6.conejo-blanco img{
+	height: 330px;
+}
+
+.col-6.conejo-blanco h1{
+	color: #ff7673;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+.col-6.conejo-blanco p{
+	font-family: 'Prompt', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
