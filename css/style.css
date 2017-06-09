@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background: #ecf7fb;
 }
 
 .imagen-principal{
@@ -9,7 +10,8 @@ body{
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	margin: 27px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .container{
@@ -43,6 +45,12 @@ body{
 	padding: 0;
 }
 
+.conejitos{
+	margin-left: 100px;
+	margin-right: 100px;
+	background: white;
+}
+
 .col-3{
 	background: #037f99;
 	height: 500px;
@@ -72,7 +80,9 @@ body{
 .conejos-cuadros{
 	background: #037f99;
 	padding: 15px;
-	margin-top: 20px;
+	
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .col-6 img{
@@ -204,3 +214,30 @@ iframe{
 	margin-right: 10px;
 }
 
+.col-2.cabeza{
+	padding: 3px;
+	margin: 0;
+	width: 12%;
+}
+
+.cabecita-bunny{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+footer{
+	background: #037f99;
+	text-align: center;
+	height: 50px;
+	border-top: 3px solid #ff7673;
+	margin: 0;
+}
+
+footer p, i{
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin: 0 auto;
+	line-height: 3;
+}
