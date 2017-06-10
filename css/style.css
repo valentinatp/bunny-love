@@ -8,9 +8,11 @@ body{
 	width: 100%;
 	background: #037f99;
 	margin: 0;
+	position: fixed;
+	z-index: 1000;
 }
 
-.barra{
+#barra{
 	margin: 0;
 	height: 70px;
 }
@@ -32,7 +34,7 @@ body{
 	display: inline-block;
 }
 
-.barra li{
+#barra li{
 	display: inline-block;
 }
 
@@ -288,3 +290,6 @@ footer p, i{
 	line-height: 3;
 }
 
+#sangurucho{
+	display: none;
+}

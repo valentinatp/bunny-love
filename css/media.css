@@ -2,4 +2,14 @@
 	[class*="col-"] {
 		width: 100%;
 	}
+
+	#sangurucho{
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.hidden{
+		display: none;
+	}
 }
+
