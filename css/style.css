@@ -4,6 +4,52 @@ body{
 	background: #ecf7fb;
 }
 
+.barra-completa{
+	width: 100%;
+	background: #037f99;
+	margin: 0;
+}
+
+.barra{
+	margin: 0;
+	height: 70px;
+}
+
+.titulo1{
+	font-family: 'Baloo Paaji', cursive;
+	color: #fff;
+	margin: 0;
+}
+
+.titulo2{
+	font-family: 'Baloo Paaji', cursive;
+	color: #ff7673;
+	margin-right: 30%;
+	margin-top: 0;
+}
+
+.barra-completa h1{
+	display: inline-block;
+}
+
+.barra li{
+	display: inline-block;
+}
+
+.lista a{
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Prompt', sans-serif;
+}
+
+.lista a:hover{
+	background: #fff;
+	color: #ff7673;
+	padding: 23px;
+}
+
 .imagen-principal{
 	background-image: url(../img/img-1.jpg);
 	background-repeat: no-repeat;
@@ -15,7 +61,7 @@ body{
 }
 
 .container{
-	background-color: rgba(3, 127, 153, 0.5);
+	background-color: rgba(3, 127, 153, 0.8);
 	position: relative;
 	height: 50vh;
 	top: 100px;
@@ -43,6 +89,7 @@ body{
 	color: whitesmoke;
 	margin: 0;
 	padding: 0;
+	font-style: italic;
 }
 
 .conejitos{
@@ -240,3 +287,4 @@ footer p, i{
 	margin: 0 auto;
 	line-height: 3;
 }
+
